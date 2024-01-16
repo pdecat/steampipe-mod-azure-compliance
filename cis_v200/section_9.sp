@@ -8,10 +8,10 @@ benchmark "cis_v200_9" {
   title         = "9 AppService"
   documentation = file("./cis_v200/docs/cis_v200_9.md")
   children = [
-    control.cis_v200_9_1,
+    // control.cis_v200_9_1,
     control.cis_v200_9_2,
     control.cis_v200_9_3,
-    control.cis_v200_9_4,
+    // control.cis_v200_9_4,
     control.cis_v200_9_5,
     control.cis_v200_9_6,
     control.cis_v200_9_7,
