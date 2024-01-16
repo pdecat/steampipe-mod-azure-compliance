@@ -12,8 +12,8 @@ benchmark "cis_v200_6" {
     control.cis_v200_6_2,
     control.cis_v200_6_3,
     control.cis_v200_6_4,
-    control.cis_v200_6_5,
-    control.cis_v200_6_6,
+    // control.cis_v200_6_5, // Nope
+    // control.cis_v200_6_6, // Optional
     control.cis_v200_6_7
   ]
 

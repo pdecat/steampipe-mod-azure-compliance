@@ -42,12 +42,12 @@ benchmark "cis_v200_4_1" {
   title         = "4.1 SQL Server - Auditing"
   documentation = file("./cis_v200/docs/cis_v200_4_1.md")
   children = [
-    control.cis_v200_4_1_1,
+    // control.cis_v200_4_1_1, // Optional
     control.cis_v200_4_1_2,
-    control.cis_v200_4_1_3,
+    // control.cis_v200_4_1_3, // Optional
     control.cis_v200_4_1_4,
-    control.cis_v200_4_1_5,
-    control.cis_v200_4_1_6
+    // control.cis_v200_4_1_5, // Optional
+    // control.cis_v200_4_1_6, // Optional
   ]
 
   tags = merge(local.cis_v200_4_1_common_tags, {
@@ -145,10 +145,10 @@ benchmark "cis_v200_4_2" {
   documentation = file("./cis_v200/docs/cis_v200_4_2.md")
   children = [
     control.cis_v200_4_2_1,
-    control.cis_v200_4_2_2,
-    control.cis_v200_4_2_3,
-    control.cis_v200_4_2_4,
-    control.cis_v200_4_2_5
+    // control.cis_v200_4_2_2, // Optional
+    // control.cis_v200_4_2_3, // Optional
+    // control.cis_v200_4_2_4, // Optional
+    // control.cis_v200_4_2_5, // Optional
   ]
 
   tags = merge(local.cis_v200_4_2_common_tags, {
@@ -232,13 +232,13 @@ benchmark "cis_v200_4_3" {
   documentation = file("./cis_v200/docs/cis_v200_4_3.md")
   children = [
     control.cis_v200_4_3_1,
-    control.cis_v200_4_3_2,
-    control.cis_v200_4_3_3,
-    control.cis_v200_4_3_4,
+    // control.cis_v200_4_3_2, // Nope
+    // control.cis_v200_4_3_3, // Optional
+    // control.cis_v200_4_3_4, // Nope
     control.cis_v200_4_3_5,
     control.cis_v200_4_3_6,
-    control.cis_v200_4_3_7,
-    control.cis_v200_4_3_8
+    // control.cis_v200_4_3_7, // Nope
+    // control.cis_v200_4_3_8, // Optional
   ]
 
   tags = merge(local.cis_v200_4_3_common_tags, {
@@ -364,8 +364,8 @@ benchmark "cis_v200_4_4" {
   children = [
     control.cis_v200_4_4_1,
     control.cis_v200_4_4_2,
-    control.cis_v200_4_4_3,
-    control.cis_v200_4_4_4
+    // control.cis_v200_4_4_3, // Optional
+    // control.cis_v200_4_4_4, // Optional
   ]
 
   tags = merge(local.cis_v200_4_4_common_tags, {
@@ -436,7 +436,7 @@ benchmark "cis_v200_4_5" {
   children = [
     control.cis_v200_4_5_1,
     control.cis_v200_4_5_2,
-    control.cis_v200_4_5_3
+    // control.cis_v200_4_5_3, // Optional
   ]
 
   tags = merge(local.cis_v200_4_common_tags, {

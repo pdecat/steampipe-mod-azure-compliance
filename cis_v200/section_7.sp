@@ -10,8 +10,8 @@ benchmark "cis_v200_7" {
   children = [
     control.cis_v200_7_1,
     control.cis_v200_7_2,
-    control.cis_v200_7_3,
-    control.cis_v200_7_4,
+    // control.cis_v200_7_3, // Optional
+    // control.cis_v200_7_4, // Optional
     control.cis_v200_7_5,
     control.cis_v200_7_6,
     control.cis_v200_7_7

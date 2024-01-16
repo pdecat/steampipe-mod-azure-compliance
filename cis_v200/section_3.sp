@@ -9,7 +9,7 @@ benchmark "cis_v200_3" {
   documentation = file("./cis_v200/docs/cis_v200_3.md")
   children = [
     control.cis_v200_3_1,
-    control.cis_v200_3_2,
+    // control.cis_v200_3_2, // Optional
     control.cis_v200_3_3,
     control.cis_v200_3_4,
     control.cis_v200_3_5,
@@ -19,7 +19,7 @@ benchmark "cis_v200_3" {
     control.cis_v200_3_9,
     control.cis_v200_3_10,
     control.cis_v200_3_11,
-    control.cis_v200_3_12,
+    control.cis_v200_3_12, // Nice
     control.cis_v200_3_13,
     control.cis_v200_3_14,
     control.cis_v200_3_15,

@@ -20,15 +20,15 @@ benchmark "cis_v200_1" {
     benchmark.cis_v200_1_1,
     benchmark.cis_v200_1_2,
     control.cis_v200_1_3,
-    control.cis_v200_1_4,
-    control.cis_v200_1_5,
-    control.cis_v200_1_6,
-    control.cis_v200_1_7,
-    control.cis_v200_1_8,
-    control.cis_v200_1_9,
-    control.cis_v200_1_10,
-    control.cis_v200_1_11,
-    control.cis_v200_1_12,
+    // control.cis_v200_1_4, // Optional
+    // control.cis_v200_1_5, // Optional
+    control.cis_v200_1_6, // Nice
+    control.cis_v200_1_7, // Nice
+    control.cis_v200_1_8, // Nice
+    control.cis_v200_1_9, // Nice
+    control.cis_v200_1_10, // Nice
+    control.cis_v200_1_11, // Nice
+    control.cis_v200_1_12, // Nice
     control.cis_v200_1_13,
     control.cis_v200_1_14,
     control.cis_v200_1_15,
@@ -36,11 +36,11 @@ benchmark "cis_v200_1" {
     control.cis_v200_1_17,
     control.cis_v200_1_18,
     control.cis_v200_1_19,
-    control.cis_v200_1_20,
+    // control.cis_v200_1_20, // Nope
     control.cis_v200_1_21,
     control.cis_v200_1_22,
     control.cis_v200_1_23,
-    control.cis_v200_1_24,
+    // control.cis_v200_1_24, // Nope
     control.cis_v200_1_25
   ]
 
@@ -56,8 +56,8 @@ benchmark "cis_v200_1_1" {
   children = [
     control.cis_v200_1_1_1,
     control.cis_v200_1_1_2,
-    control.cis_v200_1_1_3,
-    control.cis_v200_1_1_4
+    control.cis_v200_1_1_3, // Nice
+    control.cis_v200_1_1_4 // Nice
   ]
 
   tags = merge(local.cis_v200_1_1_common_tags, {
@@ -126,12 +126,12 @@ benchmark "cis_v200_1_2" {
   title         = "1.2 Conditional Access"
   documentation = file("./cis_v200/docs/cis_v200_1_2.md")
   children = [
-    control.cis_v200_1_2_1,
-    control.cis_v200_1_2_2,
-    control.cis_v200_1_2_3,
-    control.cis_v200_1_2_4,
-    control.cis_v200_1_2_5,
-    control.cis_v200_1_2_6
+    control.cis_v200_1_2_1, // Nice
+    // control.cis_v200_1_2_2, // Optional
+    // control.cis_v200_1_2_3, // Optional
+    // control.cis_v200_1_2_4, // Optional
+    // control.cis_v200_1_2_5, // Optional
+    control.cis_v200_1_2_6 // Nice
   ]
 
   tags = merge(local.cis_v200_1_2_common_tags, {
