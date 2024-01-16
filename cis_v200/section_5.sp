@@ -21,7 +21,7 @@ benchmark "cis_v200_5" {
   documentation = file("./cis_v200/docs/cis_v200_5.md")
   children = [
     benchmark.cis_v200_5_1,
-    benchmark.cis_v200_5_2,
+    // benchmark.cis_v200_5_2,
     benchmark.cis_v200_5_3,
     control.cis_v200_5_4,
     benchmark.cis_v200_5_5
@@ -39,9 +39,9 @@ benchmark "cis_v200_5_1" {
     control.cis_v200_5_1_1,
     control.cis_v200_5_1_2,
     control.cis_v200_5_1_3,
-    control.cis_v200_5_1_4,
+    // control.cis_v200_5_1_4,
     control.cis_v200_5_1_5,
-    control.cis_v200_5_1_6,
+    // control.cis_v200_5_1_6,
     control.cis_v200_5_1_7
   ]
 
@@ -152,16 +152,16 @@ benchmark "cis_v200_5_2" {
   title         = "5.2 Monitoring using Activity Log Alerts"
   documentation = file("./cis_v200/docs/cis_v200_5_2.md")
   children = [
-    control.cis_v200_5_2_1,
-    control.cis_v200_5_2_2,
-    control.cis_v200_5_2_3,
-    control.cis_v200_5_2_4,
-    control.cis_v200_5_2_5,
-    control.cis_v200_5_2_6,
-    control.cis_v200_5_2_7,
-    control.cis_v200_5_2_8,
-    control.cis_v200_5_2_9,
-    control.cis_v200_5_2_10
+    // control.cis_v200_5_2_1,
+    // control.cis_v200_5_2_2,
+    // control.cis_v200_5_2_3,
+    // control.cis_v200_5_2_4,
+    // control.cis_v200_5_2_5,
+    // control.cis_v200_5_2_6,
+    // control.cis_v200_5_2_7,
+    // control.cis_v200_5_2_8,
+    // control.cis_v200_5_2_9,
+    // control.cis_v200_5_2_10,
   ]
 
   tags = merge(local.cis_v200_5_common_tags, {
