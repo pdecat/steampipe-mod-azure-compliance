@@ -13,7 +13,7 @@ benchmark "cis_v200_8" {
     control.cis_v200_8_3,
     control.cis_v200_8_4,
     control.cis_v200_8_5,
-    control.cis_v200_8_6, // Nice
+    // control.cis_v200_8_6, // Nice
     control.cis_v200_8_7,
     control.cis_v200_8_8
   ]

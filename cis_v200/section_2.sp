@@ -22,7 +22,7 @@ benchmark "cis_v200_2" {
   children = [
     benchmark.cis_v200_2_1,
     benchmark.cis_v200_2_2,
-    benchmark.cis_v200_2_3 // Nice
+    // benchmark.cis_v200_2_3 // Nice
   ]
 
   tags = merge(local.cis_v200_2_common_tags, {
